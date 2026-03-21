@@ -1,0 +1,24 @@
+/* base.css */
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-base);
+  background: var(--color-bg);
+  color: var(--color-text);  
+  background: linear-gradient(180deg, #f9fafb, #eef2ff);
+}
+
+input, select, button {
+  font-family: inherit;
+}
